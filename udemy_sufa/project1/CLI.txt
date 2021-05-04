@@ -1,0 +1,31 @@
+
+
+1. rasa init
+
+.
+├── actions
+│   ├── __init__.py
+│   └── actions.py
+├── config.yml
+├── credentials.yml
+├── data
+│   ├── nlu.yml
+│   └── stories.yml
+├── domain.yml
+├── endpoints.yml
+├── models
+│   └── <timestamp>.tar.gz
+└── tests
+   └── test_stories.yml
+
+
+2. rasa train
+
+3. rasa interactive
+
+4. rasa shell
+
+5. rasa run actions
+
+6. rasa test
+
