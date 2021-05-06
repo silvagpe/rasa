@@ -33,7 +33,7 @@ nlu:
     - I want [one](pizza_amount) [medium](pizza_size) [us](pizza_type) pizza
     - I want [New York-Styles](pizza_type) [medium](pizza_size) pizza
     - [2](pizza_amount) [large](pizza_size) [Greek](pizza_type) pizza
-    - Order [6](pizza_amout) [greek](pizza_type) [large](pizza_size) pizza
+    - Order [6](pizza_amount) [greek](pizza_type) [large](pizza_size) pizza
 
 #Confirm message
 - intent: confirm

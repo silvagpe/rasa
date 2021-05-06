@@ -43,16 +43,15 @@ class ActionPizzaOrderForm(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
+        
         pizza_type = tracker.get_slot('pizza_type');
         pizza_size = tracker.get_slot('pizza_size');
-        pizza_amount = tracker.get_slot('pizza_amount');
+        pizza_amount = tracker.get_slot('pizza_amount');        
+                    
 
         print(pizza_type, pizza_size, pizza_amount)
 
-        dispatcher.utter_message(text=f"Ok great!. Your order is {pizza_amount} {pizza_type} pizza in {pizza_size} size. Can you please confirm your order?")
-
-        return []
+        dispatcher.utter_message(text=f"Ok great! Your order is {pizza_amount} {pizza_type} pizza in {pizza_size} size. Can you please confirm your order?")
 
         return []
 
