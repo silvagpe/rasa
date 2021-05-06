@@ -24,17 +24,17 @@ entities:
 
 slots:
   pizza_amount:
-    type: rasa.shared.core.slots.UnfeaturizedSlot
+    type: any
     initial_value: null
     auto_fill: true
     influence_conversation: false
   pizza_size:
-    type: rasa.shared.core.slots.UnfeaturizedSlot
+    type: any
     initial_value: null
     auto_fill: true
     influence_conversation: false
   pizza_type:
-    type: rasa.shared.core.slots.UnfeaturizedSlot
+    type: any
     initial_value: null
     auto_fill: true
     influence_conversation: false
