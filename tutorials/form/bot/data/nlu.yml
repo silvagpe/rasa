@@ -91,7 +91,6 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-
 - intent: request_names
   examples: |
     - i want to give you my name
