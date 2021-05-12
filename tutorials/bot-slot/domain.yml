@@ -40,8 +40,8 @@ intents:
 - repeat_name
 - give_name
 
-entities:
-  - name
+entities: []
+
 slots:
   name:
     type: text

@@ -107,7 +107,7 @@ nlu:
 
 - intent: give_name
   examples: |
-    - vincent
+    - (vincent)[name]
     - rachael
     - emma
     - juste
