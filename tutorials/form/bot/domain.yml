@@ -49,9 +49,12 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+
+#Pergunta automática com base no nome do campo do form
   utter_ask_first_name:
   - text: What is your first name?  
 
+#Pergunta automática com base no nome do campo do form
   utter_ask_last_name:
   - text: What is your last name?  
 
