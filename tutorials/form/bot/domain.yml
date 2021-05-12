@@ -55,6 +55,7 @@ responses:
   - text: What is your first name?  
 
 #Pergunta automática com base no nome do campo do form
+# outra forma é usar utter_ask_<form_name>_<slot>
   utter_ask_last_name:
   - text: What is your last name?  
 
