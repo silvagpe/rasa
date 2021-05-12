@@ -4,7 +4,6 @@ config:
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-
 intents:
 - greet:
     use_entities: true
@@ -16,31 +15,26 @@ intents:
     use_entities: true
 - goodbye:
     use_entities: true
-
 entities:
 - pizza_amount
 - pizza_size
 - pizza_type
-
 slots:
   pizza_amount:
-    type: any
+    type: rasa.shared.core.slots.AnySlot
     initial_value: null
     auto_fill: true
     influence_conversation: false
   pizza_size:
-    type: any
+    type: rasa.shared.core.slots.AnySlot
     initial_value: null
     auto_fill: true
     influence_conversation: false
   pizza_type:
-    type: any
+    type: rasa.shared.core.slots.AnySlot
     initial_value: null
     auto_fill: true
     influence_conversation: false
-
-
-
 responses:
   utter_greet:
   - text: Hey! How are you? How can I help you sir?
