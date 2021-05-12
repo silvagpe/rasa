@@ -29,16 +29,13 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: interactive_story_1
+- story: name path
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: order
-    entities:
-    - service: bus
-    - p_count: '3'
-
-- story: entity slot
-  steps:
-  - intent: entity_extraction
-  - action: action_confirm
+  - intent: tell_name
+  - action: utter_ask_name
+  - intent: give_name
+  - action: action_receive_name
+  - intent: repeat_name
+  - action: action_say_name
