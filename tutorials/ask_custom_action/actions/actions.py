@@ -14,5 +14,5 @@ class AskForSlotAction(Action):
         self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
     ) -> List[EventType]:
         first_name = tracker.get_slot("first_name")        
-        dispatcher.utter_message(text=f"So {first_name}, what is your last name?")
+        dispatcher.utter_message(text=f"So {first_name}, what is your last name?")        
         return []
