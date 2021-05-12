@@ -20,6 +20,7 @@ forms:
     - type: from_text
     last_name:
     - type: from_text
+
 slots:
   first_name:
     type: text
@@ -61,5 +62,7 @@ responses:
 
 actions:
 - action_ask_last_name
+#action_ask_<slot_name>
+#action_ask_<form_name>_<slot_name>
 
 
