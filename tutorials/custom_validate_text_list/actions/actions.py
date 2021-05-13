@@ -28,7 +28,10 @@ class ValidateNameForm(FormValidationAction):
         #Recupera o nome
         first_name = tracker.slots.get("first_name")
         print(f"required_slots: {first_name}");
-        
+
+
+        if tracker.get_slot("name_spelled_correctly"):
+            return slots_mapped_in_domain   
 
         #Se existir valor 
         if first_name is not None:

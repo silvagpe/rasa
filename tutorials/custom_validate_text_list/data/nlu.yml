@@ -98,3 +98,18 @@ nlu:
     - give name
     - you need to know my name
     - do you know my name?
+
+
+- lookup: names
+  examples: |
+    - rafael
+    - deimon
+    - estevao
+    - fernando
+    - jainae
+    - andre
+    - tiago
+    - joão
+    - joao
+    - pedro
+    - paulo
